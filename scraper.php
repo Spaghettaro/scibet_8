@@ -6,7 +6,7 @@ require 'scraperwiki/simple_html_dom.php';
 
 $sportday = new DateTime('2012-05-25');
 
-    $url = "http://www.scibet.com/betting-tips/soccer/belgium/exqi-league/2012-2013/results/";
+    $url = "http://www.scibet.com/betting-tips/soccer/argentina/primera-division/2013-2014/results/";
     $html = scraperWiki::scrape($url);        
     $dom = new simple_html_dom();
     $dom->load($html);
